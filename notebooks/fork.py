@@ -4,7 +4,7 @@ import requests
 owner = "smurphy13IIT"
 repo_name = "Digital_Signage_Builder"
 # Replace 'your_access_token' with your GitHub personal access token
-token = "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"
+token = "{YOUR ACCESS TOKEN}"
 #fork_repository(owner, repo_name, token)
 
 def fork_repository(owner, repo_name, token):

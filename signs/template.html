@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+
+    <title>Reveal template - 16:9 full screen</title>
+
+    <style>
+        html {
+            height: 100%;
+            margin: 0;
+            width: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            min-width: 100vw;
+            margin: 0;
+            height: 100%;
+        }
+
+        #container {
+            display: flex;
+            flex-flow: column;
+            height: 100%;
+        }
+
+        #content {
+            display: flex;
+            flex: 1 1 auto;
+
+        }
+
+        #content #main-content {
+            background-color: #1e1e1e;
+            flex: 1 1 auto;
+        }
+
+        #content #main-content iframe {
+            height: 100%;
+            width: 100%;
+            border: none;
+            overflow: hidden;
+            margin-top: 100px;
+        }
+
+
+        
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="content">
+            <div id="main-content" class="reveal">
+                <div class="slides">
+                </div>
+            </div>
+
+
+    </div>
+
+
+</body>
+
+
+</html>

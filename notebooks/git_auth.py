@@ -13,7 +13,7 @@ def git_auth(auth):
     return(gh)
 
 #  This should be an access token for your github repo
-auth = Auth.Token("YOUR ACCESS TOKEN HERE")
+auth = Auth.Token("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")
 
 my_git = git_auth(auth)
 

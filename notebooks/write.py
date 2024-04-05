@@ -1,9 +1,9 @@
 import requests
 import base64
 
-token = "{PUT TOKEN HERE}"
+token = "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"
 file_content = "Hello World!"
-my_repo = 'tfluhr'
+my_repo = 'TybaltAurelius'
 repo_name = "Digital_Signage_Builder"
 slideshow_name = input("Give your slideshow a name: ")
 #file_path = f"sites/{slideshow_name}/test.html"

@@ -4,13 +4,13 @@ import requests
 owner = "smurphy13IIT"
 repo_name = "Digital_Signage_Builder"
 # Replace 'your_access_token' with your GitHub personal access token
-token = "{YOUR ACCESS TOKEN}"
+token = "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"
 #fork_repository(owner, repo_name, token)
 
 def fork_repository(owner, repo_name, token):
     url = f"https://api.github.com/repos/{owner}/{repo_name}/forks"
     headers = {
-        "Authorization": f"token {token}",
+        "Authorization": f"bearer {token}",
         "Accept": "application/vnd.github.v3+json"
     }
     response = requests.post(url, headers=headers)

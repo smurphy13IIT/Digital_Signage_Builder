@@ -1,7 +1,7 @@
 import requests
 import base64
 
-token = "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"
+token = "YOUR TOKEN"
 file_content = "Hello World!"
 my_repo = 'TybaltAurelius'
 repo_name = "Digital_Signage_Builder"
